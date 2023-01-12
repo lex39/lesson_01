@@ -5,7 +5,7 @@ public class Main {
     int week = day / 7;
     int mount = day / week;
     System.out.println("Задание 1");
-    System.out.printf("За %d дня(-ей) прошло %d полных недель(-ли). \n", day, day / 7);
+    System.out.printf("За %d дня(-ей) прошло %d полных недель(-ли). \n", day, week);
     System.out.printf("За %d дня(-ей) прошло %d полных месяцев(-а).  \n \n", day, mount);
 
     // Задание 2
@@ -14,7 +14,7 @@ public class Main {
     int one = x % 10;
     System.out.println("Задание 2");
     System.out.printf("В заданом числе %d - %d десятков. \n", x, ten);
-    System.out.printf("В заданом числе %d - %d едениц. \n", x, one);
+    System.out.printf("В заданом числе %d - %d единиц. \n", x, one);
     System.out.printf("Сумма цифр числа %d - %d. \n", x, ten + one);
     System.out.printf("Произведение цифр числа %d - %d. \n \n", x, ten * one);
 
